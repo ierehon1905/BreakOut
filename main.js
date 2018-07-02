@@ -28,7 +28,7 @@ var DOMelts = {};
 
 function preload() {
   soundFormats('mp3', 'ogg');
-  sounds.popsound = loadSound('comedy_pop_mouth_finger_001.mp3', () => console.log('Sound loaded'), () => console.log('Unable to load sound'));
+  sounds.popsound = loadSound('res/comedy_pop_mouth_finger_001.mp3', () => console.log('Sound loaded'), () => console.log('Unable to load sound'));
 
 }
 
